@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Povynn - Kespuzzuo Lore Compendium</title>
+    <link href="/lore/wiki.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div id="pagetop">
+        <div class="header_inner">
+            <div class="header_logo">
+                <a href="https://kespuzzuo.neocities.org/">
+                    <img src="../lakelogoweb.png" width="180">
+                </a>
+            </div>
+            <div class="top_button_menu">
+                <ul class="top_buttons">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/lore/lorehub.html">Lore</a></li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div class="main_menu">
+            <div class="left_menu">
+                <aside>
+                    <div class="tab">
+                        <button class="tablinks" onclick="openImage(event, 'SD')" id="defaultOpen">Standard</button>
+                        <button class="tablinks" onclick="openImage(event, 'Tall')">Anthro</button>
+                    </div>
+                    <div id="SD" class="tabcontent">
+                        <img src="PovynnSD.png" width=300>
+                    </div>
+                    <div id="Tall" class="tabcontent">
+                        <img src="PovynnAnthro.png" width=300>
+                    </div>
+                    <div class="infobox_item">
+                        <div class="infobox_data">
+                            <p>Species</p>
+                        </div>
+                        <div class="infobox_value">
+                            <p>Lakesprit</p>
+                        </div>
+                    </div>
+                    <div class="infobox_item">
+                        <div class="infobox_data">
+                            <p>Gender</p>
+                        </div>
+                        <div class="infobox_value">
+                            <p>Male</p>
+                        </div>
+                    </div>
+                    <div class="infobox_item">
+                        <div class="infobox_data">
+                            <p>Residence</p>
+                        </div>
+                        <div class="infobox_value">
+                            <p>Soda Lake (during PMD: Starscape Weaver)</p>
+                        </div>
+                    </div>
+                    <div class="infobox_item">
+                        <div class="infobox_data">
+                            <p>Affiliation</p>
+                        </div>
+                        <div class="infobox_value">
+                            <p>Emronia's Team, Ahru Ceesu</p>
+                        </div>
+                    </div>
+                </aside>
+                <h1>Povynn</h1>
+                <p><sup>From the Kespuzzuo Lore Compendium</sup></p>
+                <p><b>Povynn</b> is a recurring character in the Kespuzzuo Fanwork Corpus, debuting as a supporting character in PMD: Starscape Weaver. Povynn is a lakesprit who works as psychologist doing research and therapy.</p>
+                <p>Just like how Uxie, Mesprit, and Azelf deal with knowledge, emotion, and willpower respectively, Povynn deals with perception, and has abilities related to manipulating stimuli and illusions.</p>
+                <h2>Physical Appearance</h2>
+                <h2>History</h2>
+                <h4>PMD: Starscape Weaver</h4>
+                <p>Povynn moved to the PMD World to live there for a while.</p>
+                <h2>Abilities</h2>
+            </div>
+            <div class="right_menu">
+                <h3>You might also want to check out...</h3>
+                <p>Characters on PMD: Starscape Weaver</p>
+                <p>Settings on PMD: Starscape Weaver</p>
+                <p>The Kespuzzuo Fanwork Corpus Timeline</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        // The tab script
+        function openImage(evt, imageName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(imageName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/literata/v34/or3aQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_df3-vbgKBM6YoggA-vpO-7c.woff2) format('woff2');
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color:azure;
+    text-decoration: none;
+}
+
+a:hover{
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:visited{
+    color:azure;
+    text-decoration: none;
+}
+
+p {
+    margin: 2px;
+}
+
+h1 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+h4 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+
+body {
+    margin: 0;
+    background-color: black;
+    background: url(../bg_01.png);
+    color: ghostwhite;
+    font-family: 'Literata';
+    font-kerning: none;
+}
+
+#pagetop {
+    height: 120px;
+    width: 100%;
+    background-color: #2c2d3e;
+}
+
+.header_inner{
+    margin: auto;
+    width: 900px;
+}
+
+.header_logo {
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.top_button_menu {
+    float: right;
+}
+
+.top_buttons li {
+    display:inline;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-family: Literata;
+    color: white;
+    font-size: 20px;
+}
+
+#container {
+    margin: auto;
+    width: 1200px;
+}
+
+.main_menu {
+    background: #2c2d3e;
+    color: white;
+    padding: 10px;
+    font-family: Literata;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.left_menu {
+    background: #22222c;
+    color: white;
+    padding: 10px;
+    float: left;
+    width: 780px;
+}
+
+.right_menu {
+    background: #32374f;
+    color: white;
+    padding: 10px;
+    float: right;
+    width: 350px;
+}
+sup {
+    font-size: 12px;
+}
+
+aside {
+    width: 300px;
+    float: right;
+    background-color: #1f1f22;
+}
+
+ /* The Tab Menu */
+ /* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 0px solid #262628;
+  background-color: #1f1f22;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #1f1f22;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #262628;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 0px 0px;
+  border: 0px solid #262628;
+  border-top: none;
+}
+
+.tablinks {
+    color: azure;
+    font-family: 'Literata';
+    font-size: 14px;
+}
+
+.infobox_item {
+    display: flex;
+    flex-direction: row;
+}
+
+.infobox_data {
+    background-color: #262628;
+    padding: 4px 8px;
+    flex-basis: 80px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.infobox_value {
+    background-color: #1f1f22;
+    padding: 4px 8px;
+    font-size: 12px;
+    flex-basis: 190px;
+}

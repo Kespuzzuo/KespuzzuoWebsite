@@ -1,0 +1,128 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/literata/v34/or3aQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_df3-vbgKBM6YoggA-vpO-7c.woff2) format('woff2');
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color:azure;
+    text-decoration: none;
+}
+
+a:hover{
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:visited{
+    color:azure;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    background: url("bg_01.png");
+    color: ghostwhite;
+    font-family: 'Literata';
+}
+
+#pagetop {
+    height: 120px;
+    width: 100%;
+    background-color: #2c2d3e;
+}
+
+.header_inner{
+    margin: auto;
+    width: 900px;
+}
+
+.header_logo {
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.top_button_menu {
+    float: right;
+}
+
+.top_buttons li {
+    display:inline;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-family: Literata;
+    color: white;
+    font-size: 20px;
+}
+
+#container {
+    margin: auto;
+    width: 1200px;
+}
+
+.main_menu {
+    background: #2c2d3e;
+    color: white;
+    padding: 10px;
+    font-family: Literata;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_menu {
+    background: #32374f;
+    color: white;
+    padding: 10px;
+    float: left;
+    width: 680px;
+}
+
+.right_menu {
+    background: #32374f;
+    color: white;
+    padding: 10px;
+    float: right;
+    width: 450px;
+}
+
+.portrait {
+    image-rendering: pixelated;
+}
+
+p {
+    margin: 2px;
+}
+
+h1 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
