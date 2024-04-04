@@ -60,7 +60,7 @@ body {
 #pagetop {
     height: 120px;
     width: 100%;
-    background-color: #2c2d3e;
+    background: linear-gradient(#9ca1fd24,#bbc4ff08 80px,#bbc4ff00 116px,#16151c49 116px,#16151c49),linear-gradient(105deg,#292a3c,#32344b 6%,#303148 9%,#303148 10%,#373a53 22%,#2c2d43 25%,#2b2c43 26%,#272b3f 48%,#27283c 52%,#27283e 54%,#2c2b44 58%,#29273e 60%,#282843 64%,#27243e 66%,#322a3e);
     display: flex;
     box-sizing: border-box;
 }
