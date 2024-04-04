@@ -18,11 +18,6 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    font-style: italic;
-    text-decoration: none;
-}
-
 a:visited{
     color:azure;
     text-decoration: none;
@@ -123,6 +118,24 @@ body {
     padding: 10px;
     float: left;
     width: 780px;
+}
+
+.left_option {
+    color:azure;
+    text-decoration: none;
+    padding: 0 2px;
+}
+
+.left_option:hover {
+    background: #2c2d3e;
+    border: 1px solid #2c2d3e;
+    border-radius: 5px;
+    padding: 0 4px;
+}
+
+.left_notready {
+    color:#484a68;
+    text-decoration: none;
 }
 
 .right_menu {
