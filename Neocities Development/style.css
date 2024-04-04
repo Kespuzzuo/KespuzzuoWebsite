@@ -82,8 +82,11 @@ body {
 }
 
 .main_menu {
-    background: #2c2d3e;
+    background: linear-gradient(45deg,#1219257a,#0d09177a);
+    backdrop-filter: blur(2px) saturate(100%);
     color: white;
+    border: 3px solid #110f1bcd;
+    border-radius: 6px;
     padding: 10px;
     font-family: Literata;
     display: flex;
@@ -91,16 +94,20 @@ body {
 }
 
 .left_menu {
-    background: #32374f;
+    background: linear-gradient(#4658852a,#2e274438),linear-gradient(115deg,#2a2c4190,#2a2c4190 13%,#33365190 15%,#2e314990 35%,#2a2c4190 36%,#2a2c4190 43%,#33365190 45%,#2e314990 70%,#2a2c4190 71%,#2c273d90);
+    backdrop-filter: blur(6px) saturate(120%);
     color: white;
+    border-radius: 4px;
     padding: 10px;
     float: left;
     width: 680px;
 }
 
 .right_menu {
-    background: #32374f;
+    background: linear-gradient(#5146852a,#33274438),linear-gradient(120deg,#252336b0,#252336b0 13%,#333651b0 15%,#2e3149b0 35%,#252336b0 36%,#252336b0 43%,#333651b0 45%,#2e3149b0 70%,#252336b0 71%,#211c2db0);
+    backdrop-filter: blur(6px) saturate(120%);
     color: white;
+    border-radius: 4px;
     padding: 10px;
     float: right;
     width: 450px;
