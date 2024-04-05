@@ -40,6 +40,7 @@ body {
     height: 120px;
     width: 100%;
     background: linear-gradient(#9ca1fd24,#bbc4ff08 80px,#bbc4ff00 116px,#16151c49 116px,#16151c49),linear-gradient(105deg,#292a3c,#32344b 6%,#303148 9%,#303148 10%,#373a53 22%,#2c2d43 25%,#2b2c43 26%,#272b3f 48%,#27283c 52%,#27283e 54%,#2c2b44 58%,#29273e 60%,#282843 64%,#27243e 66%,#322a3e);
+    box-shadow: 0px 0px 20px #151320B0;
     display: flex;
     box-sizing: border-box;
 }
@@ -85,6 +86,7 @@ body {
     background: linear-gradient(45deg,#1219257a,#0d09177a);
     backdrop-filter: blur(2px) saturate(100%);
     color: white;
+    box-shadow: 0px 0px 10px #15132070;
     border: 3px solid #110f1bcd;
     border-radius: 6px;
     padding: 10px;
@@ -94,18 +96,20 @@ body {
 }
 
 .left_menu {
-    background: linear-gradient(#4658852a,#2e274438),linear-gradient(115deg,#2a2c4190,#2a2c4190 13%,#33365190 15%,#2e314990 35%,#2a2c4190 36%,#2a2c4190 43%,#33365190 45%,#2e314990 70%,#2a2c4190 71%,#2c273d90);
+    background: linear-gradient(#4b619830,#231d3740),linear-gradient(115deg,#2a2c4190,#2a2c4190 13%,#33365190 15%,#2e314990 35%,#2a2c4190 36%,#2a2c4190 43%,#33365190 45%,#2e314990 70%,#2a2c4190 71%,#2c273d90);
     backdrop-filter: blur(6px) saturate(120%);
+    box-shadow: 0 0px 20px #15132070, inset 0 0 0 2px #5b668b50;
     color: white;
     border-radius: 4px;
     padding: 10px;
     float: left;
-    width: 680px;
+    width: 670px;
 }
 
 .right_menu {
-    background: linear-gradient(#5146852a,#33274438),linear-gradient(120deg,#252336b0,#252336b0 13%,#333651b0 15%,#2e3149b0 35%,#252336b0 36%,#252336b0 43%,#333651b0 45%,#2e3149b0 70%,#252336b0 71%,#211c2db0);
+    background: linear-gradient(#594b9e30,#291d3940),linear-gradient(120deg,#252336b0,#252336b0 13%,#333651b0 15%,#2e3149b0 35%,#252336b0 36%,#252336b0 43%,#333651b0 45%,#2e3149b0 70%,#252336b0 71%,#211c2db0);
     backdrop-filter: blur(6px) saturate(120%);
+    box-shadow: 0 0px 20px #15132070, inset 0 0 0 2px #675b8b50;
     color: white;
     border-radius: 4px;
     padding: 10px;
