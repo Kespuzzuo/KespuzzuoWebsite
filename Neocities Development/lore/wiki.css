@@ -47,6 +47,10 @@ h4 {
     margin-bottom: 4px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 
 body {
     margin: 0;
@@ -135,15 +139,50 @@ body {
 }
 
 .left_option:hover {
-    background: #2c2d3e;
-    border: 1px solid #2c2d3e;
+    background: linear-gradient(184deg,#3b4466,#34385b 50%,#303455 55%,#322c4f);
+    box-shadow: 0 0px 4px #15132080, inset 0 0 0 2px #8496dd50;
     border-radius: 5px;
-    padding: 0 4px;
+    padding: 0 2px;
 }
 
 .left_notready {
     color:#556c98a9;
     text-decoration: none;
+}
+
+.left_bigbutton {
+    display:inline;
+    float:left;
+    background: linear-gradient(184deg,#3b4466,#34385b 50%,#303455 55%,#322c4f);
+    box-shadow: 0 0px 10px #15132080, inset 0 0 0 2px #8496dd50;
+    border-radius: 6px;
+    margin: 8px;
+    width: 160px;
+    height: 100px;
+    text-align: center;
+    transition: filter 0.3s;
+}
+
+.left_bigbutton:hover {
+    filter: brightness(1.25) contrast(1.05);
+}
+
+.left_bigbutton:active {
+    filter: brightness(0.85) contrast(1.05) hue-rotate(5deg);
+}
+
+.left_buttonimage {
+    display:inline-block;
+    text-align: center;
+    margin-top: 10px;
+    border: 3px solid #7987dc40;
+    border-radius: 4px;
+    width: 120px;
+    height: 60px;
+}
+
+.left_buttontext {
+    margin-top: -7px;
 }
 
 .right_menu {
@@ -187,12 +226,15 @@ aside {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #1f1f22;
+    background-color: #38383e;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #262628;
+    background-color: #262628;
+}
+.tab button.active:hover {
+    background-color: #38383e;
 }
 
 /* Style the tab content */
