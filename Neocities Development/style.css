@@ -14,7 +14,7 @@ a:link{
 }
 
 a{
-    color:azure;
+    color:white;
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ a:hover{
 }
 
 a:visited{
-    color:azure;
+    color:white;
     text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ body {
     margin: 0;
     background-color: white;
     background: url("bg_01.png");
-    color: ghostwhite;
+    color: white;
     font-family: 'Literata';
 }
 
