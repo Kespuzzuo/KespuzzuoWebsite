@@ -20,6 +20,7 @@ a{
 
 p {
     margin: 2px;
+    line-height: 1.8;
 }
 
 h1 {
@@ -201,6 +202,11 @@ body {
     float: right;
     width: 350px;
 }
+
+.wiki_infobox {
+    margin: 0 0 16px 16px;
+}
+
 sup {
     font-size: 12px;
 }
