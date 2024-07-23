@@ -144,6 +144,7 @@ body {
 .left_notready {
     color:#556c98a9;
     text-decoration: none;
+    line-height: normal;
 }
 
 .left_bigbutton {
@@ -181,6 +182,20 @@ body {
     color: #f14a74;
     font-weight: 800;
     text-shadow: 0 0px 20px #f14a74A0;
+    transition: filter 0.3s;
+}
+
+.goldlink {
+    color: #f0b237;
+    font-weight: 800;
+    text-shadow: 0 0px 20px #f0b237A0;
+    transition: filter 0.3s;
+}
+
+.purplelink {
+    color: #7237f0;
+    font-weight: 800;
+    text-shadow: 0 0px 20px #7237f0A0;
     transition: filter 0.3s;
 }
 
