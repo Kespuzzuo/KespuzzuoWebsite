@@ -36,8 +36,8 @@ h2 {
 }
 
 h3 {
-    margin-top: 10px;
-    margin-bottom: 4px;
+    margin-top: 7px;
+    margin-bottom: 7px;
     font-size: 22px;
 }
 
@@ -223,6 +223,11 @@ body {
 
 .wiki_infobox {
     margin: 0 0 16px 16px;
+    border-radius: 6px;
+    background-color: #1f1f32;
+    width: 300px;
+    float: right;
+    overflow: hidden;
 }
 
 sup {
@@ -230,49 +235,49 @@ sup {
 }
 
 aside {
-    width: 300px;
     float: right;
-    background-color: #1f1f32;
 }
 
  /* The Tab Menu */
  /* Style the tab */
 .tab {
-  overflow: hidden;
-  border: 0px solid #262638;
-  background-color: #1f1f32;
+    overflow: hidden;
+    border: 0px solid #262638;
+    background-color: #1f1f32;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
+    background: linear-gradient(184deg,#272744,#292745 50%,#23223f 55%,#2e2647);
+    box-shadow: inset 0 0 0 2px #1e182f90;
+    float: left;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #38384e;
+    filter: brightness(1.25) contrast(1.05);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #262638;
+    background: linear-gradient(184deg,#3b4466,#34385b 50%,#303455 55%,#322c4f);
 }
 .tab button.active:hover {
-    background-color: #38384e;
+    filter: brightness(1.25) contrast(1.05);
 }
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
-  padding: 0px 0px;
-  border: 0px solid #262638;
-  border-top: none;
+    display: none;
+    padding: 0px 0px;
+    border: 0px solid #262638;
+    border-top: none;
 }
 
 .tablinks {
@@ -299,4 +304,8 @@ aside {
     padding: 4px 8px;
     font-size: 12px;
     flex-basis: 190px;
+}
+
+.infobox_title {
+    text-align: center;
 }
