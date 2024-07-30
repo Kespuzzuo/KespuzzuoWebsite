@@ -33,12 +33,18 @@ h2 {
     margin-top: 20px;
     margin-bottom: 4px;
     font-size: 28px;
+    background: linear-gradient(#9DD1FF, #92C7FF 50%, #86BEFF 60%, #75ACFF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h3 {
     margin-top: 7px;
     margin-bottom: 7px;
     font-size: 22px;
+    background: linear-gradient(#498CFF, #5297FA 50%, #468BF9 60%, #3C7CF9);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h4 {
@@ -221,11 +227,32 @@ body {
     width: 350px;
 }
 
+.right_title {
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    background: linear-gradient(#A488FF, #8C70FF 50%, #8261FF 60%, #7B55FF);
+    text-shadow: 0 0px 20px #9753eaa0;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .wiki_infobox {
-    margin: 0 0 16px 16px;
     border-radius: 6px;
+    margin: 4px 4px 4px 4px;
     background-color: #1f1f32;
     width: 300px;
+    float: right;
+    overflow: hidden;
+}
+
+.infobox_border {
+    margin: 0 0 16px 16px;
+    border-radius: 10px;
+    background: linear-gradient(150deg,#A0FFC7, #88FFD5 10%, #91FCFA 25%, #9DDCFF 50%, #6AA5FF 75%, #C685FF);
+    box-shadow: 0 0px 20px #15132070;
+    width: 308px;
     float: right;
     overflow: hidden;
 }
@@ -248,7 +275,7 @@ aside {
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-    background: linear-gradient(184deg,#272744,#292745 50%,#23223f 55%,#2e2647);
+    background: linear-gradient(182deg,#2D2548,#2B2445 50%,#251F3F 55%,#302347);
     box-shadow: inset 0 0 0 2px #1e182f90;
     float: left;
     border: none;
@@ -266,7 +293,7 @@ aside {
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background: linear-gradient(184deg,#3b4466,#34385b 50%,#303455 55%,#322c4f);
+    background: linear-gradient(182deg,#373A66,#32305B 50%,#2E2D55 55%,#34294F);
 }
 .tab button.active:hover {
     filter: brightness(1.25) contrast(1.05);
@@ -291,8 +318,12 @@ aside {
     flex-direction: row;
 }
 
+.infobox_itemcontainer {
+    background: radial-gradient(at top left, #5f87d0e0, transparent 250px), radial-gradient(at top right, #4D50A980, transparent 150px), radial-gradient(at bottom right, #7643C6F0, transparent 300px);
+}
+
 .infobox_data {
-    background-color: #262638;
+    background-color: #242643A0;
     padding: 4px 8px;
     flex-basis: 80px;
     font-weight: 600;
@@ -300,12 +331,21 @@ aside {
 }
 
 .infobox_value {
-    background-color: #1f1f32;
+    background-color: #151522a0;
     padding: 4px 8px;
     font-size: 12px;
     flex-basis: 190px;
 }
 
 .infobox_title {
+    background: linear-gradient(180deg,#303865,#24294B 48%,#1F1B3E 55%, #2B1C4B);
+    box-shadow: inset 0 0 0 2px #2B1C4BA0;
+    border-radius: 6px;
     text-align: center;
+    font-weight: bold;
+    padding: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 22px;
+    text-shadow: 0 0px 16px #85b6f2A0;
 }
