@@ -29,6 +29,7 @@ body {
 #pagetop {
     height: 120px;
     width: 100%;
+    min-width: 1226px;
     background: linear-gradient(#9ca1fd24,#bbc4ff08 80px,#bbc4ff00 116px,#16151c49 116px,#16151c49),linear-gradient(105deg,#292a3c,#32344b 6%,#303148 9%,#303148 10%,#373a53 22%,#2c2d43 25%,#2b2c43 26%,#272b3f 48%,#27283c 52%,#27283e 54%,#2c2b44 58%,#29273e 60%,#282843 64%,#27243e 66%,#322a3e);
     box-shadow: 0px 0px 20px #151320B0;
     display: flex;
@@ -103,7 +104,29 @@ body {
     transition: filter 0.3s;
 }
 
+.goldlink {
+    color: #f0b237;
+    font-weight: 800;
+    text-shadow: 0 0px 20px #f0b237A0;
+    transition: filter 0.3s;
+}
+
+.purplelink {
+    color: #7237f0;
+    font-weight: 800;
+    text-shadow: 0 0px 20px #7237f0A0;
+    transition: filter 0.3s;
+}
+
 .redlink:hover {
+    filter: brightness(1.25) contrast(1.05);
+}
+
+.goldlink:hover {
+    filter: brightness(1.25) contrast(1.05);
+}
+
+.purplelink:hover {
     filter: brightness(1.25) contrast(1.05);
 }
 

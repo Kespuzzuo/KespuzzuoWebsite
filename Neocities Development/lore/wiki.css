@@ -69,6 +69,7 @@ body {
 #pagetop {
     height: 120px;
     width: 100%;
+    min-width: 1226px;
     background: linear-gradient(#9ca1fd24,#bbc4ff08 80px,#bbc4ff00 116px,#16151c49 116px,#16151c49),linear-gradient(105deg,#292a3c,#32344b 6%,#303148 9%,#303148 10%,#373a53 22%,#2c2d43 25%,#2b2c43 26%,#272b3f 48%,#27283c 52%,#27283e 54%,#2c2b44 58%,#29273e 60%,#282843 64%,#27243e 66%,#322a3e);
     box-shadow: 0px 0px 20px #151320B0;
     display: flex;
@@ -212,49 +213,16 @@ body {
     filter: brightness(1.25) contrast(1.05);
 }
 
+.goldlink:hover {
+    filter: brightness(1.25) contrast(1.05);
+}
+
+.purplelink:hover {
+    filter: brightness(1.25) contrast(1.05);
+}
+
 .left_buttontext {
     margin-top: -7px;
-}
-
-.right_menu {
-    background: linear-gradient(#594b9e30,#291d3940),linear-gradient(120deg,#252336b0,#252336b0 13%,#333651b0 15%,#2e3149b0 35%,#252336b0 36%,#252336b0 43%,#333651b0 45%,#2e3149b0 70%,#252336b0 71%,#211c2db0);
-    backdrop-filter: blur(6px) saturate(120%);
-    box-shadow: 0 0px 20px #15132070, inset 0 0 0 2px #675b8b50;
-    color: white;
-    border-radius: 4px;
-    padding: 10px;
-    float: right;
-    width: 350px;
-}
-
-.right_title {
-    text-align: center;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    font-size: 20px;
-    background: linear-gradient(#A488FF, #8C70FF 50%, #8261FF 60%, #7B55FF);
-    text-shadow: 0 0px 20px #9753eaa0;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.wiki_infobox {
-    border-radius: 6px;
-    margin: 4px 4px 4px 4px;
-    background-color: #1f1f32;
-    width: 300px;
-    float: right;
-    overflow: hidden;
-}
-
-.infobox_border {
-    margin: 0 0 16px 16px;
-    border-radius: 10px;
-    background: linear-gradient(150deg,#A0FFC7, #88FFD5 10%, #91FCFA 25%, #9DDCFF 50%, #6AA5FF 75%, #C685FF);
-    box-shadow: 0 0px 20px #15132070;
-    width: 308px;
-    float: right;
-    overflow: hidden;
 }
 
 sup {
@@ -269,8 +237,8 @@ aside {
  /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 0px solid #262638;
-    background-color: #1f1f32;
+    border: 0px solid #2B1C4B;
+    background-color: #2B1C4B;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -313,6 +281,26 @@ aside {
     font-size: 14px;
 }
 
+/* Style the wiki content */
+.wiki_infobox {
+    border-radius: 6px;
+    margin: 4px 4px 4px 4px;
+    background-color: #2B1C4B;
+    width: 300px;
+    float: right;
+    overflow: hidden;
+}
+
+.infobox_border {
+    margin: 0 0 16px 16px;
+    border-radius: 10px;
+    background: linear-gradient(150deg,#A0FFC7, #88FFD5 10%, #91FCFA 25%, #9DDCFF 50%, #6AA5FF 75%, #C685FF);
+    box-shadow: 0 0px 20px #15132070;
+    width: 308px;
+    float: right;
+    overflow: hidden;
+}
+
 .infobox_item {
     display: flex;
     flex-direction: row;
@@ -348,4 +336,84 @@ aside {
     padding-bottom: 7px;
     font-size: 22px;
     text-shadow: 0 0px 16px #85b6f2A0;
+}
+
+/* Everything that appears on the right side */
+.right_menu {
+    background: linear-gradient(#594b9e30,#291d3940),linear-gradient(120deg,#252336b0,#252336b0 13%,#333651b0 15%,#2e3149b0 35%,#252336b0 36%,#252336b0 43%,#333651b0 45%,#2e3149b0 70%,#252336b0 71%,#211c2db0);
+    backdrop-filter: blur(6px) saturate(120%);
+    box-shadow: 0 0px 20px #15132070, inset 0 0 0 2px #675b8b50;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    float: right;
+    width: 350px;
+}
+
+.right_title {
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    background: linear-gradient(#A488FF, #8C70FF 50%, #8261FF 60%, #7B55FF);
+    text-shadow: 0 0px 20px #9753eaa0;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contents_border {
+    background: linear-gradient(160deg, #A488FF, #8C70FF 50%, #8261FF 60%, #7B55FF);
+    box-shadow: 0 0px 20px #15132070;
+    border-radius: 10px;
+    padding: 4px 4px 4px 4px;
+    width: 340px;
+}
+
+.contents_menu {
+    background-color: #231C3B;
+    border-radius: 8px;
+    width: 340px;
+    overflow: hidden;
+}
+
+.contents_title {
+    background: linear-gradient(#303865,#24294B 48%,#1F1B3E 55%, #2B1C4B);
+    box-shadow: inset 0 0 0 2px #2B1C4BA0;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 22px;
+    text-shadow: 0 0px 16px #85b6f2A0;
+}
+
+.contents_body {
+    background: radial-gradient(at bottom right, #4543c630, transparent 300px), radial-gradient(at bottom left, #3e40ac30, transparent 250px), linear-gradient(#231C3B, #252041 8%,#171229 48%,#130E22 55%, #22092E);
+    margin: 0px 0px;
+    padding: 4px 0px 4px 16px;
+}
+
+.contents_item {
+    padding: 4px 0px;
+}
+
+.contents_item_with_list {
+    padding: 4px 0px 0px 0px;
+}
+
+.contents_link {
+    padding: 4px 0px;
+    text-shadow: 0 0px 10px #6670b8b0;
+    transition: text-shadow 0.2s;
+}
+
+.contents_link:hover {
+    text-shadow: 0 0px 16px rgb(157, 185, 255);
+}
+
+.contents_level {
+    margin: 0px 0px;
+    padding: 0px 0px 0px 12px;
 }
