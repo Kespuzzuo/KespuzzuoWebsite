@@ -174,20 +174,10 @@ h3 {
 /* For small screens */
 @media (max-width: 1100px){
     #pagetop {
-        height: 60px;
         min-width: 627px;
-        background: linear-gradient(#9ca1fd24,#bbc4ff08 40px,#bbc4ff00 58px,#16151c49 58px,#16151c49),linear-gradient(105deg,#292a3c,#32344b 6%,#303148 9%,#303148 10%,#373a53 22%,#2c2d43 25%,#2b2c43 26%,#272b3f 48%,#27283c 52%,#27283e 54%,#2c2b44 58%,#29273e 60%,#282843 64%,#27243e 66%,#322a3e);
     }
     .header_inner{
-        width: 450px;
-    }
-    .header_logo_pic {
-        width: 90px;
-    }
-    .top_buttons li {
-        margin: 16px 2px 16px 2px;
-        padding: 6px;
-        font-size: 10px;
+        width: 550px;
     }
     #container {
         margin: auto;
