@@ -442,7 +442,7 @@ aside {
     }
     .main_menu {
         width: 600px;
-        display: grid;
+        flex-direction: column;
     }
     .contents_border {
         margin: auto;

@@ -192,6 +192,6 @@ h3 {
     }
     .main_menu {
         width: 600px;
-        display: grid;
+        flex-direction: column;
     }
 }
