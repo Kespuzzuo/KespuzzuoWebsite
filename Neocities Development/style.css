@@ -6,7 +6,7 @@
     font-family: 'Literata';
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/literata/v34/or3aQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_df3-vbgKBM6YoggA-vpO-7c.woff2) format('woff2');
+    src: url(/fonts/Literata.woff2) format('woff2');
 }
 
 a:link{
