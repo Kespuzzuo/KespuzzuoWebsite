@@ -227,6 +227,12 @@ body {
     margin-top: -7px;
 }
 
+.left_catalogue {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
 sup {
     font-size: 12px;
 }
