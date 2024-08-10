@@ -477,3 +477,24 @@ aside {
         font-size: 20px;
     }
 }
+/* Because some browsers, like the steam browser, don't support gradient text */
+@supports not (background-clip: text) {
+    h2 {
+        background: none;
+        background-clip: padding-box;
+        color: #9DD1FF;
+        -webkit-text-fill-color: #9DD1FF;
+    }
+    h3 {
+        background: none;
+        background-clip: padding-box;
+        color: #498CFF;
+        -webkit-text-fill-color: #498CFF;
+    }
+    .right_title {
+        background: none;
+        background-clip: padding-box;
+        color: #A488FF;
+        -webkit-text-fill-color: #A488FF;
+    }
+}
