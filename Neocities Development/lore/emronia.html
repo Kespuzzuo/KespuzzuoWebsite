@@ -39,6 +39,16 @@
                             <div class="infobox_title">
                                 Emronia
                             </div>
+                            <div class="tab">
+                                <button style="width:150px" class="tablinks" onclick="openImage(event, 'SW')" id="defaultOpen">Starscape Weaver</button>
+                                <button style="width:150px" class="tablinks" onclick="openImage(event, 'SG')">Skygardening</button>
+                            </div>
+                            <div id="SW" class="tabcontent">
+                                <img src="EmroniaSW.png" width=300 style="display:block">
+                            </div>
+                            <div id="SG" class="tabcontent">
+                                <img src="EmroniaSkygardening.png" width=300 style="display:block">
+                            </div>
                             <div class="infobox_itemcontainer">
                                 <div class="infobox_item">
                                     <div class="infobox_data">
@@ -81,6 +91,7 @@
                     <h2 id="Physical_Appearance">Physical Appearance</h2>
                     <p><i>To be written.</i></p>
                     <h2 id="History">History</h2>
+                    <p>Emronia originally was from a different planet called Roccomenta, where she lived with her friend <a class="goldlink" href="/lore/quentin.html">Quentin</a>.</p>
                     <h3 id="Starscape_Weaver">PMD: Starscape Weaver</h3>
                     <p><i>To be written.</i></p>
                     <h3 id="Skygardening">Skygardening</h3>
@@ -120,5 +131,23 @@
                 </div>
             </div>
         </div>
+        <script>
+            // The tab script
+            function openImage(evt, imageName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(imageName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
     </body>
 </html>
