@@ -18,6 +18,29 @@ a{
     text-decoration: none;
 }
 
+p {
+    margin: 2px;
+    line-height: 1.8;
+}
+
+h1 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 34px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 28px;
+}
+
+h3 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 22px;
+}
+
 body {
     margin: 0;
     background-color: white;
@@ -89,6 +112,46 @@ body {
     width: 1200px;
 }
 
+/* Breaking News */
+.news_border {
+    background: linear-gradient(170deg,#4B9CA1, #538EAC 20%, #2D2E63 80%, #4C2C81);
+    box-shadow: 0 6px 10px #15132080;
+    border-radius: 10px;
+    display: block;
+    width: 688px;
+    align-content: center;
+    margin: 8px 1px;
+}
+
+.news_container {
+    width: 680px;
+    margin: 4px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.news_title {
+    background: linear-gradient(115deg, #3C89C420, #23286050 38%, #17204F40 40%, #10123A40 50%, #2C337260 52%, #161F4D40 80%, #20336660 82%, #10123A40), linear-gradient(#3B5C82,#2E3D60 48%,#272850 55%, #303A72);
+    font-size: 22px;
+    padding: 6px 6px;
+}
+
+.news_content {
+    background: radial-gradient(at bottom right, #5640BA20, transparent 350px), radial-gradient(at top left, #2A5FB430, transparent 350px), linear-gradient(#262851, #2A3057 12%,#1A1C39 58%,#161634 65%, #261145);
+    box-shadow: inset 0 0 2px 3px #181a3d50;
+    padding: 4px 12px;
+}
+
+.news_date {
+    text-align: right;
+    font-size: 10px;
+    line-height: 10px;
+    padding-right: 2px;
+    margin: 0px;
+    float: right;
+}
+
+/* The left menu */
 .left_menu {
     background: linear-gradient(#4b619830,#231d3740),linear-gradient(115deg,#2a2c4190,#2a2c4190 13%,#33365190 15%,#2e314990 35%,#2a2c4190 36%,#2a2c4190 43%,#33365190 45%,#2e314990 70%,#2a2c4190 71%,#2c273d90);
     backdrop-filter: blur(6px) saturate(120%);
@@ -100,6 +163,7 @@ body {
     width: 690px;
 }
 
+/* A link to the past */
 .redlink {
     color: #f14a74;
     font-weight: 800;
@@ -148,29 +212,6 @@ body {
     image-rendering: pixelated;
 }
 
-p {
-    margin: 2px;
-    line-height: 1.8;
-}
-
-h1 {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    font-size: 34px;
-}
-
-h2 {
-    margin-top: 20px;
-    margin-bottom: 4px;
-    font-size: 28px;
-}
-
-h3 {
-    margin-top: 7px;
-    margin-bottom: 7px;
-    font-size: 22px;
-}
-
 /* For small screens */
 @media (max-width: 1100px){
     #pagetop {
@@ -193,5 +234,12 @@ h3 {
     .main_menu {
         width: 600px;
         flex-direction: column;
+    }
+    .news_border {
+        width: 580px;
+        margin: 8px 0px;
+    }
+    .news_container {
+        width: 572px;
     }
 }
