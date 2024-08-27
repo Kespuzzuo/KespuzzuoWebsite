@@ -9,11 +9,15 @@
     src: url(/fonts/Literata.woff2) format('woff2');
 }
 
-a:link{
+p {
+    font-size: 16px;
+}
+
+a:link {
     text-decoration: none;
 }
 
-a{
+a {
     color:white;
     text-decoration: none;
 }
@@ -59,7 +63,7 @@ body {
     box-sizing: border-box;
 }
 
-.header_inner{
+.header_inner {
     margin: auto;
     width: 900px;
 }
@@ -151,6 +155,12 @@ body {
     float: right;
 }
 
+.news_signoff_pic {
+    padding-left: 244px;
+    padding-right: 244px;
+    display:flex;
+}
+
 /* The left menu */
 .left_menu {
     background: linear-gradient(#4b619830,#231d3740),linear-gradient(115deg,#2a2c4190,#2a2c4190 13%,#33365190 15%,#2e314990 35%,#2a2c4190 36%,#2a2c4190 43%,#33365190 45%,#2e314990 70%,#2a2c4190 71%,#2c273d90);
@@ -213,11 +223,11 @@ body {
 }
 
 /* For small screens */
-@media (max-width: 1100px){
+@media (max-width: 1100px) {
     #pagetop {
         min-width: 627px;
     }
-    .header_inner{
+    .header_inner {
         width: 550px;
     }
     #container {
