@@ -155,10 +155,30 @@ body {
     float: right;
 }
 
+.news_signoff {
+    height: 180px;
+}
+
 .news_signoff_pic {
-    padding-left: 244px;
-    padding-right: 244px;
-    display:flex;
+    position: absolute;
+    image-rendering: pixelated;
+    left: 255px;
+}
+
+.news_signoff_left {
+    font-size: 14px;
+    position: relative;
+    float: right;
+    right: 423px;
+    top: 70px;
+}
+
+.news_signoff_right {
+    font-size: 14px;
+    position: relative;
+    float: left;
+    left: 423px;
+    top: 100px;
 }
 
 /* The left menu */
@@ -220,6 +240,7 @@ body {
 
 .portrait {
     image-rendering: pixelated;
+    display: flex;
 }
 
 /* For small screens */
@@ -251,5 +272,16 @@ body {
     }
     .news_container {
         width: 572px;
+    }
+    .news_signoff_pic {
+        position: absolute;
+        image-rendering: pixelated;
+        left: 200px;
+    }
+    .news_signoff_left {
+        right: 380px;
+    }
+    .news_signoff_right {
+        left: 380px;
     }
 }
