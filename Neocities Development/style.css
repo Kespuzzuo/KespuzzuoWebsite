@@ -117,6 +117,31 @@ body {
 }
 
 /* Breaking News */
+
+.news_intro_border {
+    background: linear-gradient(155deg,#49A7D3, #3D78B2 20%, #3D60B2 40%, #6B2E61);
+    box-shadow: 0 6px 10px #15132080;
+    border-radius: 10px;
+    display: block;
+    width: 688px;
+    align-content: center;
+    margin: 8px 1px;
+}
+
+.news_intro {
+    background: radial-gradient(at bottom right, #5640BA20, transparent 350px), radial-gradient(at top left, #2A5FB430, transparent 350px), linear-gradient(#262851, #2A3057 12%,#1A1C39 58%,#161634 65%, #261145);
+    width: 680px;
+    margin: 4px;
+    padding-bottom: 4px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.news_intro h2 {
+    margin: 0px;
+    text-align: center;
+}
+
 .news_border {
     background: linear-gradient(170deg,#4B9CA1, #538EAC 20%, #2D2E63 80%, #4C2C81);
     box-shadow: 0 6px 10px #15132080;
@@ -179,6 +204,42 @@ body {
     float: left;
     left: 423px;
     top: 100px;
+}
+
+/* Archive button */
+
+.archive_button_border {
+    background: linear-gradient(155deg,#49A7D3, #3D78B2 20%, #3D60B2 40%, #6B2E61);
+    box-shadow: 0 6px 10px #15132080;
+    border-radius: 10px;
+    display: block;
+    width: 188px;
+    align-content: center;
+    margin: 8px auto;
+}
+
+.archive_button {
+    background: radial-gradient(at bottom right, #5640BA20, transparent 350px), radial-gradient(at top left, #2A5FB430, transparent 350px), linear-gradient(#262851, #2A3057 12%,#1A1C39 58%,#161634 65%, #261145);
+    width: 180px;
+    margin: 4px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+    text-align: center;
+    transition: filter 0.3s;
+}
+
+.archive_button p {
+    font-size: 24px;
+}
+
+.archive_button:hover {
+    filter: brightness(1.25) contrast(1.05);
+}
+
+.archive_button:active {
+    filter: brightness(0.85) contrast(1.05) hue-rotate(5deg);
 }
 
 /* The left menu */
@@ -265,6 +326,12 @@ body {
     .main_menu {
         width: 600px;
         flex-direction: column;
+    }
+    .news_intro_border {
+        width: 580px;
+    }
+    .news_intro {
+        width: 572px;
     }
     .news_border {
         width: 580px;
