@@ -209,7 +209,7 @@ body {
 /* Archive button */
 
 .archive_button_border {
-    background: linear-gradient(155deg,#49A7D3, #3D78B2 20%, #3D60B2 40%, #6B2E61);
+    background: linear-gradient(155deg,#76B3DE, #4691DE 20%, #4067C9 40%, #5C8EE1);
     box-shadow: 0 6px 10px #15132080;
     border-radius: 10px;
     display: block;
@@ -219,7 +219,7 @@ body {
 }
 
 .archive_button {
-    background: radial-gradient(at bottom right, #5640BA20, transparent 350px), radial-gradient(at top left, #2A5FB430, transparent 350px), linear-gradient(#262851, #2A3057 12%,#1A1C39 58%,#161634 65%, #261145);
+    background: radial-gradient(at bottom right, #3b85ce50, transparent 120px), radial-gradient(at top left, #1d68e250, transparent 80px), linear-gradient(115deg, #3C89C410, #2328602A 38%, #17204F20 40%, #10123A20 50%, #2C337230 52%, #161F4D20 80%, #20336630 82%, #10123A20), linear-gradient(#24376B, #2A4486 12%,#1A2D63 58%,#142053 65%, #2D3474);
     width: 180px;
     margin: 4px;
     padding-top: 8px;
@@ -304,6 +304,63 @@ body {
     display: flex;
 }
 
+/* Archive menu */
+
+.archive_menu_border {
+    background: linear-gradient(155deg,#76B3DE, #4691DE 20%, #4067C9 40%, #5C8EE1);
+    box-shadow: 0 0px 20px #15132070;
+    border-radius: 10px;
+    padding: 4px 4px 4px 4px;
+    margin: 12px 0px;
+    width: 442px;
+}
+
+.archive_menu {
+    background-color: #231C3B;
+    border-radius: 8px;
+    width: 442px;
+    overflow: hidden;
+}
+
+.archive_menu_title {
+    background: linear-gradient(115deg, #3C89C420, #23286050 38%, #17204F40 40%, #10123A40 50%, #2C337260 52%, #161F4D40 80%, #20336660 82%, #10123A40), linear-gradient(#3B5C82,#2E3D60 48%,#272850 55%, #303A72);
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 4px 2px;
+    font-size: 24px;
+    text-shadow: 0 0px 16px #85b6f2A0;
+}
+
+.archive_menu_body {
+    background: radial-gradient(at bottom right, #5640BA20, transparent 350px), radial-gradient(at top left, #203d9520, transparent 150px), linear-gradient(#262851, #2A3057 12%,#1A1C39 58%,#161634 65%, #261145);
+    margin: 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+
+.archive_menu_item {
+    padding: 4px 0px;
+    text-align: center;
+    font-size: 20px;
+    transition: background 0.2s, text-shadow 0.2s;
+}
+
+.archive_menu_item:hover {
+    background: #5390fa20;
+    text-shadow: 0 0px 24px #88b8f7;
+}
+
+/* For whenever I want small adjustments */
+
+.no_margin_on_top {
+    margin-top: 0px;
+}
+
+.no_margin_on_bottom {
+    margin-bottom: 0px;
+}
+
 /* For small screens */
 @media (max-width: 1100px) {
     #pagetop {
@@ -350,5 +407,14 @@ body {
     }
     .news_signoff_right {
         left: 380px;
+    }
+    .archive_menu_border {
+        width: 570px;
+    }
+    .archive_menu {
+        background-color: #231C3B;
+        border-radius: 8px;
+        width: 570px;
+        overflow: hidden;
     }
 }
