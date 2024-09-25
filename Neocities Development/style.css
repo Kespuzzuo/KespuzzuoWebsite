@@ -351,6 +351,28 @@ body {
     text-shadow: 0 0px 24px #88b8f7;
 }
 
+/* Project hub */
+
+.project_border {
+    background: linear-gradient(45deg,#1219257a,#0d09177a);
+    backdrop-filter: blur(2px) saturate(100%);
+    box-shadow: 0px 0px 10px #15132070;
+    border: 3px solid #110f1bcd;
+    border-radius: 6px;
+    width: 800px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.project_menu {
+    background: linear-gradient(#4b619830,#231d3740),linear-gradient(115deg,#2a2c4190,#2a2c4190 13%,#33365190 15%,#2e314990 35%,#2a2c4190 36%,#2a2c4190 43%,#33365190 45%,#2e314990 70%,#2a2c4190 71%,#2c273d90);
+    backdrop-filter: blur(6px) saturate(120%);
+    box-shadow: 0 0px 20px #15132070, inset 0 0 0 2px #5b668b50;
+    width: 784px;
+    padding: 8px;
+    display: block;
+}
+
 /* For whenever I want small adjustments */
 
 .no_margin_on_top {
@@ -359,6 +381,14 @@ body {
 
 .no_margin_on_bottom {
     margin-bottom: 0px;
+}
+
+.float_to_the_left {
+    float: left;
+}
+
+.float_to_the_right {
+    float: right;
 }
 
 /* For small screens */
@@ -416,5 +446,11 @@ body {
         border-radius: 8px;
         width: 570px;
         overflow: hidden;
+    }
+    .project_border {
+        width: 600px;
+    }
+    .project_menu {
+        width: 600px;
     }
 }
