@@ -103,8 +103,8 @@ body {
 .top_buttons li {
     display:inline;
     float:left;
-    margin: 32px 4px 32px 4px;
-    padding: 12px;
+    margin: 10px 0px;
+    padding: 0px;
     font-weight: bold;
     font-family: Literata;
     color: white;
@@ -439,6 +439,10 @@ aside {
     }
     .header_inner {
         width: 550px;
+    }
+    .top_buttons_pic {
+        width: 110px;
+        margin: 15px 0px;
     }
     #container {
         margin: auto;
