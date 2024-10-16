@@ -111,6 +111,14 @@ body {
     font-size: 20px;
 }
 
+.top_buttons_pic {
+    transition: filter 0.3s;
+}
+
+.top_buttons_pic:hover {
+    filter: brightness(1.4) contrast(1.05);
+}
+
 #container {
     margin: auto;
     width: 1226px;
